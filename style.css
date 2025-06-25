@@ -1,0 +1,225 @@
+/* Reset y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #a8e6a3, #d4f5d0); /* Verde clarito */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #c8f7c5; /* Verde clarito sólido */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ba248;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #059a37;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background: url('https://recubcn.com/wp-content/uploads/2019/12/slider-1.jpg') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Contenido */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    color: #1ba248;
+    font-size: 2em;
+}
+
+.content p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Sección de servicios */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.service-box {
+    width: 300px;
+    text-align: center;
+    background: #b0e6a3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Sección de contacto */
+#contacto {
+    padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4baf50;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor principal */
+.contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.contacto-info, .contacto-formulario {
+    flex: 1;
+    min-width: 320px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4baf50;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contacto-info:hover, .contacto-formulario:hover {
+    transform: scale(1.05);
+}
+
+.contacto-info h3, .contacto-formulario h3 {
+    color: #4baf50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Botón */
+button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(to right, #4baf50, #7bbd6c);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(to right, #7bbd6c, #4baf50);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #1ba248;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* A */
+a {
+    background: #9bae97;
+    color: rgb(75, 172, 33);
+    padding: 5px;
+    text-align: center;
+}

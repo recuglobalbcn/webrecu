@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa responsable dedicada a la recuperación y gestión integral de residuos en Barcelona">
+    <title>Recuperaciones Barcelona | Gestión Integral de Residuos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ESTILOS EXISTENTES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #00a651;
+            --secondary-color: #005c29;
+            --accent-color: #ffcc00;
+            --light-color: #f5f5f5;
+            --dark-color: #333;
+            --gray-color: #777;
+            --transition: all 0.3s ease;
+        }
+
+        
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1fa849;
+      font-size: 2em;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      padding: 0 40px 40px 40px;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 1.5em;
+      }
+
+      .section {
+        padding: 0 20px 30px 20px;
+      }
+    }
+
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: #7cd036;
+            overflow-x: hidden;
+        }
+                
+        #holaalgoqueesmasgordojajajaj img {
+            width: auto;
+            height: auto;
+        }
+
+
+        h1, h2, h3, h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+        
+        h2 {
+            font-size: 2.2rem;
+            position: relative;
+            padding-bottom: 15px;
+            text-align: center;
+        }
+        
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary-color);
+        }
+        
+        p {
+            margin-bottom: 1.2rem;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0;
+            color: var(--primary-color);
+        }
+        
+        .logo span {
+            color: var(--secondary-color);
+        }
+        
+        .logo-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-right: 10px;
+        }
+        
+        /* Navigation */
+        nav {
+            display: flex;
+        }
+        
+        nav a {
+            color: var(--dark-color);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 4px;
+            transition: var(--transition);
+            font-size: 15px;
+            position: relative;
+        }
+        
+        nav a:hover, 
+        nav a.active {
+            color: var(--primary-color);
+        }
+        
+        nav a:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--primary-color);
+            transition: var(--transition);
+        }
+        
+        nav a:hover:after, 
+        nav a.active:after {
+            width: 100%;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--dark-color);
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            margin-top: 70px;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero h2:after {
+            background: var(--accent-color);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+        
+        .hero-btns {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-color);
+        }
+        
+        /* Values */
+        .values {
+            background: var(--light-color);
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .value-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            text-align: center;
+            padding: 40px 25px;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .value-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .value-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        
+        /* Services */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-img {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .service-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .service-card:hover .service-img img {
+            transform: scale(1.1);
+        }
+        
+        .service-content {
+            padding: 25px;
+        }
+        
+        .service-content h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+        
+        /* Sectors */
+        .sectors {
+            background: var(--light-color);
+        }
+        
+        .sectors-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 50px;
+        }
+        
+        .sector-item {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+        
+        .sector-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sector-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-right: 15px;
+            min-width: 50px;
+            text-align: center;
+        }
+        
+        /* Gallery */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 50px;
+        }
+        
+        .gallery-item {
+            height: 250px;
+            overflow: hidden;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 166, 81, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+        
+        .gallery-overlay i {
+            color: white;
+            font-size: 2.5rem;
+        }
+        
+        /* Contact */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            margin-top: 50px;
+        }
+        
+        .contact-info {
+            background: var(--primary-color);
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-info h3 {
+            color: white;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+        }
+        
+        .contact-item {
+            display: flex;
+            margin-bottom: 25px;
+        }
+        
+        .contact-icon {
+            font-size: 1.5rem;
+            min-width: 40px;
+            color: var(--accent-color);
+        }
+        
+        .contact-details h4 {
+            color: white;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        .contact-details p, .contact-details a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .contact-details a:hover {
+            color: var(--accent-color);
+        }
+        
+        .map {
+            height: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .map iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-form h3 {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: var(--primary-color);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark-color);
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 166, 81, 0.1);
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .radio-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .radio-option {
+            display: flex;
+            align-items: center;
+        }
+        
+        .radio-option input {
+            width: auto;
+            margin-right: 8px;
+        }
+        
+        .form-btn {
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--secondary-color);
+            color: white;
+            padding: 50px 0 20px;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h4 {
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h4:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--accent-color);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+            display: block;
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent-color);
+            padding-left: 5px;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .social-icon:hover {
+            background: var(--accent-color);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+        
+        .copyright a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            h2 {
+                font-size: 2rem;
+            }
+            
+            .hero h2 {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav {
+                position: fixed;
+                top: 70px;
+                left: -100%;
+                flex-direction: column;
+                background: white;
+                width: 80%;
+                height: calc(100vh - 70px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                transition: var(--transition);
+                padding: 20px;
+                z-index: 999;
+            }
+            
+            nav.active {
+                left: 0;
+            }
+            
+            nav a {
+                margin: 10px 0;
+                padding: 12px 0;
+                border-bottom: 1px solid #eee;
+            }
+            
+            .hero h2 {
+                font-size: 2.3rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .hero-btns {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .logo h1 {
+                font-size: 1.5rem;
+            }
+            
+            .hero h2 {
+                font-size: 2rem;
+            }
+            
+            .contact-info,
+            .contact-form {
+                padding: 25px;
+            }
+        }
+
+        /* NUEVOS ESTILOS PARA SELECTOR DE IDIOMA */
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+        
+        .language-selector {
+            position: relative;
+            margin-left: 20px;
+        }
+        
+        .language-selector select {
+            padding: 8px 12px;
+            padding-right: 30px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+            transition: var(--transition);
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 15px;
+        }
+        
+        .language-selector select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 166, 81, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .language-selector {
+                margin-left: 0;
+                margin-right: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="tdtrhdfj.png" alt="Recuperaciones Barcelona logo" class="logo-img">
+            </div>
+            
+            <div class="header-right">
+                <nav>
+                    <a href="#empresa" class="active" data-i18n="menu.company">Empresa</a>
+                    <a href="#valores" data-i18n="menu.values">Valores</a>
+                    <a href="#servicios" data-i18n="menu.services">Servicios</a>
+                    <a href="#sectores" data-i18n="menu.sectors">Sectores</a>
+                    <a href="#galeria" data-i18n="menu.gallery">Galería</a>
+                    <a href="#contacto" data-i18n="menu.contact">Contacto</a>
+                </nav>
+                
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="es">ES</option>
+                        <option value="en">EN</option>
+                        <option value="ca">CA</option>
+                    </select>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 data-i18n="hero.title">Recuperar, Reciclar, Reducir, Reeducar</h2>
+            <p data-i18n="hero.subtitle">25 años de experiencia en la gestión integral de residuos y Reciclado en Barcelona</p>
+            <div class="hero-btns">
+                <a href="#servicios" class="btn" data-i18n="hero.btnServices">Nuestros Servicios</a>
+                <a href="#contacto" class="btn btn-secondary" data-i18n="hero.btnContact">Contactar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Empresa Section -->
+    <section id="empresa" class="empresa">
+        <div class="container">
+            <h2 data-i18n="company.title">Somos una Empresa Responsable</h2>
+            <div class="text-center">
+                <p data-i18n="company.p1">En Recuperaciones Barcelona llevamos más de 25 años trabajando en la industria del reciclaje y de la Reciclado, desde lo más sencillo hasta lo más complejo. Nuestra experiencia nos ha permitido desarrollar metodologías innovadoras que garantizan la máxima eficiencia y el mínimo impacto ambiental.</p>
+                <p data-i18n="company.p2">Nos especializamos en la gestión integral de residuos, ofreciendo soluciones personalizadas para cada cliente. Contamos con la tecnología más avanzada y un equipo de profesionales altamente cualificados que aseguran el cumplimiento de todas las normativas ambientales vigentes.</p>
+                <p data-i18n="company.p3">Nuestro compromiso es contribuir a un futuro más sostenible mediante la reducción de residuos y la promoción de la economía circular en todos los sectores industriales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores Section -->
+    <section id="valores" class="values">
+        <div class="container">
+            <h2 data-i18n="values.title">Nuestros Valores</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-leaf value-icon"></i>
+                    <h3 data-i18n="values.sustainability">Sostenibilidad</h3>
+                    <p data-i18n="values.sustainabilityText">Priorizamos la preservación del medio ambiente en todas nuestras operaciones, buscando siempre soluciones ecológicamente responsables.</p>
+                </div>
+                
+                <div class="value-card">
+                    <i class="fas fa-handshake value-icon"></i>
+                    <h3 data-i18n="values.commitment">Compromiso</h3>
+                    <p data-i18n="values.commitmentText">Nos comprometemos con nuestros clientes a ofrecer soluciones personalizadas, eficientes y adaptadas a sus necesidades específicas.</p>
+                </div>
+                
+                <div class="value-card">
+                    <i class="fas fa-flask value-icon"></i>
+                    <h3 data-i18n="values.innovation">Innovación</h3>
+                    <p data-i18n="values.innovationText">Invertimos continuamente en tecnología e investigación para mejorar nuestros procesos y ofrecer soluciones vanguardistas.</p>
+                </div>
+                
+                <div class="value-card">
+                    <i class="fas fa-shield-alt value-icon"></i>
+                    <h3 data-i18n="values.security">Seguridad</h3>
+                    <p data-i18n="values.securityText">Garantizamos la seguridad en todas nuestras operaciones, cumpliendo con los más altos estándares de protección laboral y ambiental.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2 data-i18n="services.title">Nuestros Servicios</h2>
+            <div id="holaalgoqueesmasgordojajajaj">
+                <img src="111.png" alt="onichan ">
+                <img src="222.png" alt="onichan ">
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="xddd.jpg" alt="Recogida de residuos">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-i18n="services.service1">Recogida y Transporte</h3>
+                        <p data-i18n="services.service1Text">Servicio de recogida programada y urgente de residuos con flota propia de vehículos adaptados. Garantizamos la trazabilidad de los residuos desde su origen hasta su destino final.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="gthusegjsj.jpg" alt="Clasificación de residuos">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-i18n="services.service2">Clasificación y Separación</h3>
+                        <p data-i18n="services.service2Text">Procesos avanzados de clasificación manual y automática para maximizar la Reciclado valorizables. Separación por tipo, composición y calidad para optimizar el reciclaje.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="MG_3157.jpg" alt="Trituración de materiales">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-i18n="services.service3">Trituración y Compactación</h3>
+                        <p data-i18n="services.service3Text">Reducción volumétrica de residuos mediante trituración industrial y compactación para optimizar el transporte y almacenamiento. Preparamos los materiales para su posterior reciclaje.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="MG_2777.jpg" alt="Reciclado">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-i18n="services.service6">Reciclado</h3>
+                        <p data-i18n="services.service6Text">Es en este proceso cuando todos los esfuerzos obtienen su recompensa: materiales que habían sido desechados al cumplir su ciclo de vida, vuelven a ser útiles. Trabajamos para conseguir que cada día sea mayor el volumen de materiales reutilizables, reduciendo el empleo de materias primas que supongan un deterioro de nuestro planeta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectores Section -->
+    <section id="sectores" class="sectors">
+        <div class="container">
+            <h2 data-i18n="sectors.title">Sectores de Actuación</h2>
+            <div class="sectors-container">
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector1">Industria Química</h4>
+                        <p data-i18n="sectors.sector1Text">Gestión de residuos químicos y peligrosos con todas las garantías de seguridad.</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector2">Automoción</h4>
+                        <p data-i18n="sectors.sector2Text">Reciclaje de vehículos fuera de uso y gestión de residuos de talleres.</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector3">Logística</h4>
+                        <p data-i18n="sectors.sector3Text">Gestión de residuos de embalajes, palets y materiales de transporte.</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector4">Alimentaria</h4>
+                        <p data-i18n="sectors.sector4Text">Tratamiento de residuos orgánicos y gestión de envases alimentarios.</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector5">Construcción</h4>
+                        <p data-i18n="sectors.sector5Text">Gestión de RCDs (Residuos de Construcción y Demolición).</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector6">Sanitario</h4>
+                        <p data-i18n="sectors.sector6Text">Tratamiento especializado de residuos biosanitarios y farmacéuticos.</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector7">Comercio</h4>
+                        <p data-i18n="sectors.sector7Text">Gestión integral de residuos comerciales y de grandes superficies.</p>
+                    </div>
+                </div>
+                
+                <div class="sector-item">
+                    <div class="sector-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="sectors.sector8">Administraciones Públicas</h4>
+                        <p data-i18n="sectors.sector8Text">Servicios de recogida selectiva y tratamiento para municipios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 data-i18n="gallery.title">Nuestra Galería</h2>
+
+
+
+  <!-- RECIDA Y TRANSPORTE -->
+  <section class="section">
+    <h2>RECOGIDA Y TRANSPORTE</h2>
+    <div class="image-grid">
+      <img src="hola.jpg" alt="Camión 1">
+      <img src="hila.jpg" alt="Camión 2">
+      <img src="xddd.jpg" alt="Contenedor amarillo">
+      <img src="dgrsdgrs.jpg" alt="Carro verde">
+    </div>
+  </section>
+
+  <!-- SELECCIÓN Y SEPARACIÓN -->
+  <section class="section">
+    <h2>SELECCIÓN Y SEPARACIÓN</h2>
+    <div class="image-grid">
+      <img src="egtwjugtsji.jpg" alt="Operarios seleccionando">
+      <img src="dhtrhddthr.jpg" alt="Libros">
+      <img src="thtrthr.jpg" alt="Montón libros">
+      <img src="ththtdhfd.jpg" alt="Montón papeles">
+      <img src="rggrsgsrd.jpg" alt="Montón papeles">
+    </div>
+  </section>
+
+  <!-- TRITURACIÓN Y EMPAQUETADO -->
+  <section class="section">
+    <h2>TRITURACIÓN Y EMPAQUETADO</h2>
+    <div class="image-grid">
+      <img src="gfxnhtsdbgts.jpg" alt="Trituradora">
+      <img src="ghgh.jpg" alt="Plásticos empacados">
+      <img src="dsfdsdf.jpg" alt="Elevador">
+      <img src="adfsadfsadfs.jpg" alt="Montón libros triturados">
+      <img src="liyulul.jpg" alt="Plásticos empacados">
+      <img src="efweafeafw.jpg" alt="Elevador">
+      <img src="ghgfdf.jpg" alt="Montón libros triturados">
+      <img src="wddeaewaw.jpg" alt="Montón libros triturados">
+    </div>
+  </section>
+
+  <!-- RECICLADO -->
+  <section class="section">
+    <h2>RECICLADO</h2>
+    <div class="image-grid">
+      <img src="qwerty.jpg" alt="Pacas de papel 1">
+      <img src="gmukiykyuukt.jpg" alt="Pacas de papel 2">
+      <img src="lkjhgfd.jpg" alt="Pacas de papel 3">
+      <img src="unnamed (4).jpg" alt="Pacas marrones">
+      <img src="ggtsgts.jpg" alt="Pacas de papel 1">
+      <img src="grgrsdgrsgrd.jpg" alt="Pacas de papel 2">
+      <img src="dgsdgsdgrs.jpg" alt="Pacas de papel 3">
+      <img src="sdfgh.jpg" alt="Pacas marrones">
+      <img src="thydfsaedg.jpg" alt="Pacas de papel 1">
+      <img src="poiuyt.jpg" alt="Pacas de papel 2">
+      <img src="ewrjhgrsdtyju.jpg" alt="Pacas de papel 3">
+      <img src="guioyhgf.jpg" alt="Pacas marrones">
+      <img src="bnbnbvb.jpg" alt="Pacas de papel 3">
+      <img src="fewsgrtdh.jpg" alt="Pacas marrones">
+    </div>
+  </section>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 data-i18n="contact.title">Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.infoTitle">Información de Contacto</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.address">Dirección</h4>
+                            <p>Carrer Secret, 4-6, 08105, Barcelona</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.phone">Teléfono</h4>
+                            <p><a href="tel:934808039">934 808 039</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.email">Email</h4>
+                            <p><a href="mailto:recubcn@rglobalbcn.com">recubcn@rglobalbcn.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.hours">Horario</h4>
+                            <p data-i18n="contact.weekdays">Lunes a Viernes: 8:00 - 18:00</p>
+                            <p data-i18n="contact.saturdays">Sábados: 9:00 - 13:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.687262246938!2d2.188515315425825!3d41.39934797926292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a323dca4454d%3A0xf75a4b4b8a8f5d9f!2sCarrer%20Secret%2C%204-6%2C%2008105%20Barcelona!5e0!3m2!1ses!2ses!4v1686751234567!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 data-i18n="contact.formTitle">Formulario de Contacto</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre" data-i18n="contact.formName">Nombre*</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="empresa" data-i18n="contact.formCompany">Empresa</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono" data-i18n="contact.formPhone">Teléfono*</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.formEmail">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="consulta" data-i18n="contact.formQuery">Consulta*</label>
+                            <textarea id="consulta" name="consulta" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label data-i18n="contact.formSector">Sector</label>
+                            <div class="radio-group">
+                                <div class="radio-option">
+                                    <input type="radio" id="papelera" name="sector" value="Papelera" checked>
+                                    <label for="papelera" data-i18n="contact.sector1">Papelera</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="quimica" name="sector" value="Química">
+                                    <label for="quimica" data-i18n="contact.sector2">Química</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="automocion" name="sector" value="Automoción">
+                                    <label for="automocion" data-i18n="contact.sector3">Automoción</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="logistica" name="sector" value="Logística">
+                                    <label for="logistica" data-i18n="contact.sector4">Logística</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="alimentaria" name="sector" value="Alimentaria">
+                                    <label for="alimentaria" data-i18n="contact.sector5">Alimentaria</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="otros" name="sector" value="Otros">
+                                    <label for="otros" data-i18n="contact.sector6">Otros</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn form-btn" data-i18n="contact.formSubmit">Enviar Consulta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4 data-i18n="footer.company">Recuperaciones Barcelona</h4>
+                    <p data-i18n="footer.description">25 años de experiencia en la recuperación y gestión integral de residuos en Barcelona y toda Cataluña.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-i18n="footer.quickLinks">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#empresa" data-i18n="menu.company">Sobre Nosotros</a></li>
+                        <li><a href="#servicios" data-i18n="menu.services">Nuestros Servicios</a></li>
+                        <li><a href="#sectores" data-i18n="menu.sectors">Sectores</a></li>
+                        <li><a href="#galeria" data-i18n="menu.gallery">Galería</a></li>
+                        <li><a href="#contacto" data-i18n="menu.contact">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-i18n="footer.services">Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="services.service1">Recogida de Residuos</a></li>
+                        <li><a href="#" data-i18n="services.service2">Clasificación y Separación</a></li>
+                        <li><a href="#" data-i18n="services.service3">Trituración y Compactación</a></li>
+                        <li><a href="#" data-i18n="services.service4">Gestión de Residuos Peligrosos</a></li>
+                        <li><a href="#" data-i18n="services.service6">Reciclado</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-i18n="footer.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="footer.legal1">Aviso Legal</a></li>
+                        <li><a href="#" data-i18n="footer.legal2">Política de Privacidad</a></li>
+                        <li><a href="#" data-i18n="footer.legal3">Política de Cookies</a></li>
+                        <li><a href="#" data-i18n="footer.legal4">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Recuperaciones Barcelona. <span data-i18n="footer.rights">Todos los derechos reservados</span> | <span data-i18n="footer.designed">Diseñado con</span> <i class="fas fa-heart" style="color: #ffcc00;"></i> <span data-i18n="footer.inBarcelona">en Barcelona</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Datos de traducción
+        const translations = {
+            es: {
+                // Menú
+                "menu.company": "Empresa",
+                "menu.values": "Valores",
+                "menu.services": "Servicios",
+                "menu.sectors": "Sectores",
+                "menu.gallery": "Galería",
+                "menu.contact": "Contacto",
+                
+                // Hero
+                "hero.title": "Recuperar, Reciclar, Reducir, Reeducar",
+                "hero.subtitle": "25 años de experiencia en la gestión integral de residuos y Reciclado en Barcelona",
+                "hero.btnServices": "Nuestros Servicios",
+                "hero.btnContact": "Contactar Ahora",
+                
+                // Empresa
+                "company.title": "Somos una Empresa Responsable",
+                "company.p1": "En Recuperaciones Barcelona llevamos más de 25 años trabajando en la industria del reciclaje y de la Reciclado, desde lo más sencillo hasta lo más complejo. Nuestra experiencia nos ha permitido desarrollar metodologías innovadoras que garantizan la máxima eficiencia y el mínimo impacto ambiental.",
+                "company.p2": "Nos especializamos en la gestión integral de residuos, ofreciendo soluciones personalizadas para cada cliente. Contamos con la tecnología más avanzada y un equipo de profesionales altamente cualificados que aseguran el cumplimiento de todas las normativas ambientales vigentes.",
+                "company.p3": "Nuestro compromiso es contribuir a un futuro más sostenible mediante la reducción de residuos y la promoción de la economía circular en todos los sectores industriales.",
+                
+                // Valores
+                "values.title": "Nuestros Valores",
+                "values.sustainability": "Sostenibilidad",
+                "values.sustainabilityText": "Priorizamos la preservación del medio ambiente en todas nuestras operaciones, buscando siempre soluciones ecológicamente responsables.",
+                "values.commitment": "Compromiso",
+                "values.commitmentText": "Nos comprometemos con nuestros clientes a ofrecer soluciones personalizadas, eficientes y adaptadas a sus necesidades específicas.",
+                "values.innovation": "Innovación",
+                "values.innovationText": "Invertimos continuamente en tecnología e investigación para mejorar nuestros procesos y ofrecer soluciones vanguardistas.",
+                "values.security": "Seguridad",
+                "values.securityText": "Garantizamos la seguridad en todas nuestras operaciones, cumpliendo con los más altos estándares de protección laboral y ambiental.",
+                
+                // Servicios
+                "services.title": "Nuestros Servicios",
+                "services.service1": "Recogida y Transporte",
+                "services.service1Text": "Servicio de recogida programada y urgente de residuos con flota propia de vehículos adaptados. Garantizamos la trazabilidad de los residuos desde su origen hasta su destino final.",
+                "services.service2": "Clasificación y Separación",
+                "services.service2Text": "Procesos avanzados de clasificación manual y automática para maximizar la Reciclado valorizables. Separación por tipo, composición y calidad para optimizar el reciclaje.",
+                "services.service3": "Trituración y Compactación",
+                "services.service3Text": "Reducción volumétrica de residuos mediante trituración industrial y compactación para optimizar el transporte y almacenamiento. Preparamos los materiales para su posterior reciclaje.",
+                "services.service4": "Gestión de Residuos Peligrosos",
+                "services.service4Text": "Manejo especializado de residuos peligrosos con todas las certificaciones requeridas. Tratamiento, almacenamiento temporal y disposición final según normativa vigente.",
+                "services.service5": "Asesoramiento Ambiental",
+                "services.service5Text": "Consultoría especializada en gestión de residuos, economía circular y cumplimiento normativo. Desarrollo de planes de minimización de residuos y optimización de recursos.",
+                "services.service6": "Reciclado",
+                "services.service6Text": "Es en este proceso cuando todos los esfuerzos obtienen su recompensa: materiales que habían sido desechados al cumplir su ciclo de vida, vuelven a ser útiles. Trabajamos para conseguir que cada día sea mayor el volumen de materiales reutilizables, reduciendo el empleo de materias primas que supongan un deterioro de nuestro planeta.",
+                
+                // Sectores
+                "sectors.title": "Sectores de Actuación",
+                "sectors.sector1": "Industria Química",
+                "sectors.sector1Text": "Gestión de residuos químicos y peligrosos con todas las garantías de seguridad.",
+                "sectors.sector2": "Automoción",
+                "sectors.sector2Text": "Reciclaje de vehículos fuera de uso y gestión de residuos de talleres.",
+                "sectors.sector3": "Logística",
+                "sectors.sector3Text": "Gestión de residuos de embalajes, palets y materiales de transporte.",
+                "sectors.sector4": "Alimentaria",
+                "sectors.sector4Text": "Tratamiento de residuos orgánicos y gestión de envases alimentarios.",
+                "sectors.sector5": "Construcción",
+                "sectors.sector5Text": "Gestión de RCDs (Residuos de Construcción y Demolición).",
+                "sectors.sector6": "Sanitario",
+                "sectors.sector6Text": "Tratamiento especializado de residuos biosanitarios y farmacéuticos.",
+                "sectors.sector7": "Comercio",
+                "sectors.sector7Text": "Gestión integral de residuos comerciales y de grandes superficies.",
+                "sectors.sector8": "Administraciones Públicas",
+                "sectors.sector8Text": "Servicios de recogida selectiva y tratamiento para municipios.",
+                
+                // Galería
+                "gallery.title": "Nuestra Galería",
+                
+                // Contacto
+                "contact.title": "Contacto",
+                "contact.infoTitle": "Información de Contacto",
+                "contact.address": "Dirección",
+                "contact.phone": "Teléfono",
+                "contact.email": "Email",
+                "contact.hours": "Horario",
+                "contact.weekdays": "Lunes a Viernes: 8:00 - 18:00",
+                "contact.saturdays": "Sábados: 9:00 - 13:00",
+                "contact.formTitle": "Formulario de Contacto",
+                "contact.formName": "Nombre*",
+                "contact.formCompany": "Empresa",
+                "contact.formPhone": "Teléfono*",
+                "contact.formEmail": "Email*",
+                "contact.formQuery": "Consulta*",
+                "contact.formSector": "Sector",
+                "contact.sector1": "Papelera",
+                "contact.sector2": "Química",
+                "contact.sector3": "Automoción",
+                "contact.sector4": "Logística",
+                "contact.sector5": "Alimentaria",
+                "contact.sector6": "Otros",
+                "contact.formSubmit": "Enviar Consulta",
+                
+                // Footer
+                "footer.company": "Recuperaciones Barcelona",
+                "footer.description": "25 años de experiencia en la recuperación y gestión integral de residuos en Barcelona y toda Cataluña.",
+                "footer.quickLinks": "Enlaces Rápidos",
+                "footer.services": "Servicios",
+                "footer.legal": "Legal",
+                "footer.legal1": "Aviso Legal",
+                "footer.legal2": "Política de Privacidad",
+                "footer.legal3": "Política de Cookies",
+                "footer.legal4": "Términos y Condiciones",
+                "footer.rights": "Todos los derechos reservados",
+                "footer.designed": "Diseñado con",
+                "footer.inBarcelona": "en Barcelona"
+            },
+            en: {
+                // Menú
+                "menu.company": "Company",
+                "menu.values": "Values",
+                "menu.services": "Services",
+                "menu.sectors": "Sectors",
+                "menu.gallery": "Gallery",
+                "menu.contact": "Contact",
+                
+                // Hero
+                "hero.title": "Recover, Recycle, Reduce, Re-educate",
+                "hero.subtitle": "25 years of experience in comprehensive waste management and material recovery in Barcelona",
+                "hero.btnServices": "Our Services",
+                "hero.btnContact": "Contact Now",
+                
+                // Empresa
+                "company.title": "We are a Responsible Company",
+                "company.p1": "At Recuperaciones Barcelona, we have been working in the recycling and material recovery industry for over 25 years, from the simplest to the most complex. Our experience has allowed us to develop innovative methodologies that guarantee maximum efficiency and minimal environmental impact.",
+                "company.p2": "We specialize in comprehensive waste management, offering personalized solutions for each client. We have the most advanced technology and a team of highly qualified professionals that ensure compliance with all current environmental regulations.",
+                "company.p3": "Our commitment is to contribute to a more sustainable future by reducing waste and promoting the circular economy in all industrial sectors.",
+                
+                // Valores
+                "values.title": "Our Values",
+                "values.sustainability": "Sustainability",
+                "values.sustainabilityText": "We prioritize environmental preservation in all our operations, always seeking ecologically responsible solutions.",
+                "values.commitment": "Commitment",
+                "values.commitmentText": "We commit to our customers to offer personalized, efficient solutions tailored to their specific needs.",
+                "values.innovation": "Innovation",
+                "values.innovationText": "We continuously invest in technology and research to improve our processes and offer cutting-edge solutions.",
+                "values.security": "Security",
+                "values.securityText": "We guarantee safety in all our operations, complying with the highest standards of labor and environmental protection.",
+                
+                // Servicios
+                "services.title": "Our Services",
+                "services.service1": "Collection and Transport",
+                "services.service1Text": "Scheduled and urgent waste collection service with our own fleet of adapted vehicles. We guarantee waste traceability from origin to final destination.",
+                "services.service2": "Classification and Separation",
+                "services.service2Text": "Advanced manual and automatic classification processes to maximize the recovery of valuable materials. Separation by type, composition and quality to optimize recycling.",
+                "services.service3": "Shredding and Compaction",
+                "services.service3Text": "Volumetric reduction of waste through industrial shredding and compaction to optimize transport and storage. We prepare materials for subsequent recycling.",
+                "services.service4": "Hazardous Waste Management",
+                "services.service4Text": "Specialized handling of hazardous waste with all required certifications. Treatment, temporary storage and final disposal according to current regulations.",
+                "services.service5": "Environmental Advisory",
+                "services.service5Text": "Specialized consulting in waste management, circular economy and regulatory compliance. Development of waste minimization and resource optimization plans.",
+                "services.service6": "Material Recovery",
+                "services.service6Text": "We recover and valorize metals, plastics, paper, cardboard, glass, wood and other materials for reintroduction into production processes as secondary raw materials.",
+                
+                // Sectores
+                "sectors.title": "Activity Sectors",
+                "sectors.sector1": "Chemical Industry",
+                "sectors.sector1Text": "Management of chemical and hazardous waste with all safety guarantees.",
+                "sectors.sector2": "Automotive",
+                "sectors.sector2Text": "Recycling of end-of-life vehicles and workshop waste management.",
+                "sectors.sector3": "Logistics",
+                "sectors.sector3Text": "Management of packaging, pallets and transport materials waste.",
+                "sectors.sector4": "Food",
+                "sectors.sector4Text": "Treatment of organic waste and management of food packaging.",
+                "sectors.sector5": "Construction",
+                "sectors.sector5Text": "Management of CDW (Construction and Demolition Waste).",
+                "sectors.sector6": "Healthcare",
+                "sectors.sector6Text": "Specialized treatment of biomedical and pharmaceutical waste.",
+                "sectors.sector7": "Retail",
+                "sectors.sector7Text": "Comprehensive management of commercial and large-scale retail waste.",
+                "sectors.sector8": "Public Administrations",
+                "sectors.sector8Text": "Selective collection and treatment services for municipalities.",
+                
+                // Galería
+                "gallery.title": "Our Gallery",
+                
+                // Contacto
+                "contact.title": "Contact",
+                "contact.infoTitle": "Contact Information",
+                "contact.address": "Address",
+                "contact.phone": "Phone",
+                "contact.email": "Email",
+                "contact.hours": "Schedule",
+                "contact.weekdays": "Monday to Friday: 8:00 - 18:00",
+                "contact.saturdays": "Saturdays: 9:00 - 13:00",
+                "contact.formTitle": "Contact Form",
+                "contact.formName": "Name*",
+                "contact.formCompany": "Company",
+                "contact.formPhone": "Phone*",
+                "contact.formEmail": "Email*",
+                "contact.formQuery": "Query*",
+                "contact.formSector": "Sector",
+                "contact.sector1": "Paper",
+                "contact.sector2": "Chemical",
+                "contact.sector3": "Automotive",
+                "contact.sector4": "Logistics",
+                "contact.sector5": "Food",
+                "contact.sector6": "Others",
+                "contact.formSubmit": "Send Query",
+                
+                // Footer
+                "footer.company": "Recuperaciones Barcelona",
+                "footer.description": "25 years of experience in waste recovery and comprehensive management in Barcelona and all Catalonia.",
+                "footer.quickLinks": "Quick Links",
+                "footer.services": "Services",
+                "footer.legal": "Legal",
+                "footer.legal1": "Legal Notice",
+                "footer.legal2": "Privacy Policy",
+                "footer.legal3": "Cookie Policy",
+                "footer.legal4": "Terms and Conditions",
+                "footer.rights": "All rights reserved",
+                "footer.designed": "Designed with",
+                "footer.inBarcelona": "in Barcelona"
+            },
+            ca: {
+                // Menú
+                "menu.company": "Empresa",
+                "menu.values": "Valors",
+                "menu.services": "Serveis",
+                "menu.sectors": "Sectors",
+                "menu.gallery": "Galeria",
+                "menu.contact": "Contacte",
+                
+                // Hero
+                "hero.title": "Recuperar, Reciclar, Reduir, Reeducar",
+                "hero.subtitle": "25 anys d'experiència en la gestió integral de residus i recuperació de materials a Barcelona",
+                "hero.btnServices": "Els Nostres Serveis",
+                "hero.btnContact": "Contactar Ara",
+                
+                // Empresa
+                "company.title": "Som una Empresa Responsable",
+                "company.p1": "A Recuperacions Barcelona portem més de 25 anys treballant en la indústria del reciclatge i de la recuperació de materials, des del més senzill fins al més complex. La nostra experiència ens ha permès desenvolupar metodologies innovadores que garanteixen la màxima eficiència i el mínim impacte ambiental.",
+                "company.p2": "Ens especialitzem en la gestió integral de residus, oferint solucions personalitzades per a cada client. Comptem amb la tecnologia més avançada i un equip de professionals altament qualificats que asseguren el compliment de totes les normatives ambientals vigents.",
+                "company.p3": "El nostre compromís és contribuir a un futur més sostenible mitjançant la reducció de residus i la promoció de l'economia circular en tots els sectors industrials.",
+                
+                // Valores
+                "values.title": "Els Nostres Valors",
+                "values.sustainability": "Sostenibilitat",
+                "values.sustainabilityText": "Prioritzem la preservació del medi ambient en totes les nostres operacions, buscant sempre solucions ecològicament responsables.",
+                "values.commitment": "Compromís",
+                "values.commitmentText": "Ens comprometem amb els nostres clients a oferir solucions personalitzades, eficients i adaptades a les seves necessitats específiques.",
+                "values.innovation": "Innovació",
+                "values.innovationText": "Invertim contínuament en tecnologia i investigació per millorar els nostres processos i oferir solucions d'avantguarda.",
+                "values.security": "Seguretat",
+                "values.securityText": "Garantim la seguretat en totes les nostres operacions, complint amb els més alts estàndards de protecció laboral i ambiental.",
+                
+                // Servicios
+                "services.title": "Els Nostres Serveis",
+                "services.service1": "Recollida i Transport",
+                "services.service1Text": "Servei de recollida programada i urgent de residus amb flota pròpia de vehicles adaptats. Garantim la traçabilitat dels residus des del seu origen fins al seu destí final.",
+                "services.service2": "Classificació i Separació",
+                "services.service2Text": "Processos avançats de classificació manual i automàtica per maximitzar la recuperació de materials valoritzables. Separació per tipus, composició i qualitat per optimitzar el reciclatge.",
+                "services.service3": "Trituració i Compactació",
+                "services.service3Text": "Reducció volumètrica de residus mitjançant trituració industrial i compactació per optimitzar el transport i emmagatzematge. Preparem els materials per al seu posterior reciclatge.",
+                "services.service4": "Gestió de Residus Perillosos",
+                "services.service4Text": "Manejament especialitzat de residus perillosos amb totes les certificacions requerides. Tractament, emmagatzematge temporal i disposició final segons normativa vigent.",
+                "services.service5": "Assessorament Ambiental",
+                "services.service5Text": "Consultoria especialitzada en gestió de residus, economia circular i compliment normatiu. Desenvolupament de plans de minimització de residus i optimització de recursos.",
+                "services.service6": "Recuperació de Materials",
+                "services.service6Text": "Recuperem i valoritzem metalls, plàstics, paper, cartró, vidre, fusta i altres materials per a la seva reintroducció en els processos productius com a matèries primeres secundàries.",
+                
+                // Sectores
+                "sectors.title": "Sectors d'Actuació",
+                "sectors.sector1": "Indústria Química",
+                "sectors.sector1Text": "Gestió de residus químics i perillosos amb totes les garanties de seguretat.",
+                "sectors.sector2": "Automoció",
+                "sectors.sector2Text": "Reciclatge de vehicles fora d'ús i gestió de residus de tallers.",
+                "sectors.sector3": "Logística",
+                "sectors.sector3Text": "Gestió de residus d'embalatges, palets i materials de transport.",
+                "sectors.sector4": "Alimentària",
+                "sectors.sector4Text": "Tractament de residus orgànics i gestió d'envàs alimentari.",
+                "sectors.sector5": "Construcció",
+                "sectors.sector5Text": "Gestió de RCDs (Residus de Construcció i Demolició).",
+                "sectors.sector6": "Sanitari",
+                "sectors.sector6Text": "Tractament especialitzat de residus biosanitaris i farmacèutics.",
+                "sectors.sector7": "Comerç",
+                "sectors.sector7Text": "Gestió integral de residus comercials i de grans superfícies.",
+                "sectors.sector8": "Administracions Públiques",
+                "sectors.sector8Text": "Serveis de recollida selectiva i tractament per a municipis.",
+                
+                // Galería
+                "gallery.title": "La Nostra Galeria",
+                
+                // Contacto
+                "contact.title": "Contacte",
+                "contact.infoTitle": "Informació de Contacte",
+                "contact.address": "Adreça",
+                "contact.phone": "Telèfon",
+                "contact.email": "Correu electrònic",
+                "contact.hours": "Horari",
+                "contact.weekdays": "Dilluns a Divendres: 8:00 - 18:00",
+                "contact.saturdays": "Dissabtes: 9:00 - 13:00",
+                "contact.formTitle": "Formulari de Contacte",
+                "contact.formName": "Nom*",
+                "contact.formCompany": "Empresa",
+                "contact.formPhone": "Telèfon*",
+                "contact.formEmail": "Correu electrònic*",
+                "contact.formQuery": "Consulta*",
+                "contact.formSector": "Sector",
+                "contact.sector1": "Paperera",
+                "contact.sector2": "Química",
+                "contact.sector3": "Automoció",
+                "contact.sector4": "Logística",
+                "contact.sector5": "Alimentària",
+                "contact.sector6": "Altres",
+                "contact.formSubmit": "Enviar Consulta",
+                
+                // Footer
+                "footer.company": "Recuperacions Barcelona",
+                "footer.description": "25 anys d'experiència en la recuperació i gestió integral de residus a Barcelona i tota Catalunya.",
+                "footer.quickLinks": "Enllaços Ràpids",
+                "footer.services": "Serveis",
+                "footer.legal": "Legal",
+                "footer.legal1": "Avís Legal",
+                "footer.legal2": "Política de Privacitat",
+                "footer.legal3": "Política de Cookies",
+                "footer.legal4": "Termes i Condicions",
+                "footer.rights": "Tots els drets reservats",
+                "footer.designed": "Dissenyat amb",
+                "footer.inBarcelona": "a Barcelona"
+            }
+        };
+
+        // Funcionalidad de cambio de idioma
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageSelect = document.getElementById('language-select');
+            const lang = localStorage.getItem('language') || 'es';
+            
+            // Establecer idioma inicial
+            languageSelect.value = lang;
+            translatePage(lang);
+            
+            // Cambio de idioma
+            languageSelect.addEventListener('change', function() {
+                const selectedLang = this.value;
+                localStorage.setItem('language', selectedLang);
+                translatePage(selectedLang);
+            });
+            
+            // Función para traducir la página
+            function translatePage(lang) {
+                document.documentElement.lang = lang;
+                const elements = document.querySelectorAll('[data-i18n]');
+                
+                elements.forEach(el => {
+                    const key = el.getAttribute('data-i18n');
+                    if (translations[lang] && translations[lang][key]) {
+                        el.textContent = translations[lang][key];
+                    }
+                });
+            }
+
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navMenu = document.querySelector('nav');
+            
+            mobileMenuBtn.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                mobileMenuBtn.querySelector('i').classList.toggle('fa-bars');
+                mobileMenuBtn.querySelector('i').classList.toggle('fa-times');
+            });
+            
+            // Close menu when clicking a link
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                    mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                    mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+                });
+            });
+            
+            // Form submission
+            const contactForm = document.getElementById('contactForm');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const nombre = document.getElementById('nombre').value;
+                const empresa = document.getElementById('empresa').value;
+                const telefono = document.getElementById('telefono').value;
+                const email = document.getElementById('email').value;
+                const consulta = document.getElementById('consulta').value;
+                const sector = document.querySelector('input[name="sector"]:checked').value;
+                
+                // Create mailto link
+                const subject = translations[lang]["contact.formTitle"];
+                const body = `${translations[lang]["contact.formName"]}: ${nombre}%0D%0A` +
+                             `${translations[lang]["contact.formCompany"]}: ${empresa}%0D%0A` +
+                             `${translations[lang]["contact.formPhone"]}: ${telefono}%0D%0A` +
+                             `${translations[lang]["contact.formEmail"]}: ${email}%0D%0A` +
+                             `${translations[lang]["contact.formSector"]}: ${sector}%0D%0A%0D%0A` +
+                             `${translations[lang]["contact.formQuery"]}:%0D%0A${consulta}`;
+                
+                const mailtoLink = `mailto:recubcn@rglobalbcn.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                
+                // Open email client
+                window.location.href = mailtoLink;
+                
+                // Reset form
+                contactForm.reset();
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Add active class to nav links based on scroll position
+            window.addEventListener('scroll', () => {
+                const sections = document.querySelectorAll('section');
+                const navLinks = document.querySelectorAll('nav a');
+                
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (pageYOffset >= (sectionTop - 100)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
