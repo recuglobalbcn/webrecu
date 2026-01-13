@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 <head>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="ec318e37-a99d-445d-91f5-b3c19c030dbc" data-blockingmode="auto" type="text/javascript"></script>
+<script type="text/javascript">
+    (function() {
+        var lang = document.documentElement.lang.split('-')[0] || 'es';
+        var cbScript = document.createElement('script');
+        cbScript.id = 'Cookiebot';
+        cbScript.src = 'https://consent.cookiebot.com/uc.js';
+        cbScript.setAttribute('data-cbid', 'ec318e37-a99d-41f5-b3c1-9c030dbc');
+        cbScript.setAttribute('data-blockingmode', 'auto');
+        cbScript.type = 'text/javascript';
+        cbScript.setAttribute('data-culture', lang);
+        document.head.appendChild(cbScript);
+    })();
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Empresa responsable dedicada a la recuperación y gestión integral de residuos en Barcelona">
@@ -1754,6 +1766,7 @@
     </script>
 </body>
 </html>
+
 
 
 
