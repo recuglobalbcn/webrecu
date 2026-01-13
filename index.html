@@ -3,14 +3,26 @@
 <head>
 <script type="text/javascript">
     (function() {
-        var lang = document.documentElement.lang.split('-')[0] || 'es';
+        var lang = document.documentElement.lang.split('-')[0];
+        var url = window.location.href;
+
+        if (url.includes('/ca') || lang === 'ca') {
+            lang = 'ca';
+        } else if (url.includes('/en') || lang === 'en') {
+            lang = 'en';
+        } else {
+            lang = 'es'; // Por defecto
+        }
+        
         var cbScript = document.createElement('script');
         cbScript.id = 'Cookiebot';
         cbScript.src = 'https://consent.cookiebot.com/uc.js';
         cbScript.setAttribute('data-cbid', 'ec318e37-a99d-41f5-b3c1-9c030dbc');
         cbScript.setAttribute('data-blockingmode', 'auto');
         cbScript.type = 'text/javascript';
+        
         cbScript.setAttribute('data-culture', lang);
+        
         document.head.appendChild(cbScript);
     })();
 </script>
@@ -1766,6 +1778,7 @@
     </script>
 </body>
 </html>
+
 
 
 
